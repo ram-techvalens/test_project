@@ -1,0 +1,699 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Awesome Support: Custom Fields\n"
+"POT-Creation-Date: 2018-03-21 11:26-0500\n"
+"PO-Revision-Date: 2017-02-13 22:17-0600\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.5\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: custom-fields.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: custom-fields.php:205
+#, php-format
+msgid "%s requires Awesome Support to be active. Please activate the core plugin first."
+msgstr ""
+
+#: custom-fields.php:209
+#, php-format
+msgid "Unfortunately, %s can not run on PHP versions older than %s. Read more information about <a href=\"%s\" target=\"_blank\">how you can update</a>."
+msgstr ""
+
+#: custom-fields.php:213
+#, php-format
+msgid "%s requires Awesome Support version %s or greater. Please update the core plugin first."
+msgstr ""
+
+#: custom-fields.php:294
+msgid "Custom Fields"
+msgstr ""
+
+#: custom-fields.php:509
+#, php-format
+msgid "Please <a href=\"%s\">fill-in your product license for Awesome Support: Custom Fields </a> now. If you don't, your copy of Awesome Support: Custom Fields <strong>will never be updated</strong>."
+msgstr ""
+
+#: custom-fields.php:537
+#, php-format
+msgid "You must fill-in your product license in order to get future plugin updates. <a href=\"%s\">Click here to do it</a>."
+msgstr ""
+
+#: custom-fields.php:1020
+msgid "Fields were saved successfully"
+msgstr ""
+
+#: custom-fields.php:1031
+msgid "Fields were not saved successfully"
+msgstr ""
+
+#: custom-fields.php:1063 includes/admin/views/field.php:256
+msgid "Option ID"
+msgstr ""
+
+#: custom-fields.php:1064 includes/admin/views/field.php:257
+msgid "Option Label"
+msgstr ""
+
+#: custom-fields.php:1065 includes/admin/views/field.php:258
+#: includes/admin/views/field.php:337
+msgid "Remove"
+msgstr ""
+
+#: includes/admin/views/custom-fields-settings.php:10
+msgid "Custom fields"
+msgstr ""
+
+#: includes/admin/views/custom-fields-settings.php:17
+msgid "Fields with <span class=\"required\">*</span> are mandatory"
+msgstr ""
+
+#: includes/admin/views/custom-fields-settings.php:18
+msgid "Add Field"
+msgstr ""
+
+#: includes/admin/views/custom-fields-settings.php:19
+msgid "Save fields"
+msgstr ""
+
+#: includes/admin/views/field.php:9
+msgid "Field - "
+msgstr ""
+
+#: includes/admin/views/field.php:16 includes/admin/views/field.php:23
+#: includes/admin/views/field.php:25 includes/admin/views/new-field.php:8
+#: includes/admin/views/new-field.php:14
+msgid "Title"
+msgstr ""
+
+#: includes/admin/views/field.php:21 includes/admin/views/new-field.php:13
+msgid "The “human readable” name of your custom field. That’s the name that’ll be shown in the submission form"
+msgstr ""
+
+#: includes/admin/views/field.php:34 includes/admin/views/field.php:41
+#: includes/admin/views/field.php:43 includes/admin/views/new-field.php:22
+#: includes/admin/views/new-field.php:28
+msgid "Name"
+msgstr ""
+
+#: includes/admin/views/field.php:39 includes/admin/views/new-field.php:27
+msgid "A text string identifying your custom field. It should consist of only lowercase letters, numbers and underscore, for instance my_custom_field"
+msgstr ""
+
+#: includes/admin/views/field.php:41 includes/admin/views/field.php:43
+#: includes/admin/views/new-field.php:28
+msgid "The name should consist of only lowercase letters, numbers and underscore"
+msgstr ""
+
+#: includes/admin/views/field.php:52 includes/admin/views/new-field.php:36
+msgid "Field type"
+msgstr ""
+
+#: includes/admin/views/field.php:57 includes/admin/views/new-field.php:41
+msgid "The type of field that you want to register"
+msgstr ""
+
+#: includes/admin/views/field.php:65 includes/admin/views/field.php:69
+#: includes/admin/views/new-field.php:43
+msgid "Text"
+msgstr ""
+
+#: includes/admin/views/field.php:76 includes/admin/views/field.php:80
+#: includes/admin/views/new-field.php:44
+msgid "URL"
+msgstr ""
+
+#: includes/admin/views/field.php:87 includes/admin/views/field.php:91
+#: includes/admin/views/new-field.php:45
+msgid "Email"
+msgstr ""
+
+#: includes/admin/views/field.php:98 includes/admin/views/field.php:102
+#: includes/admin/views/new-field.php:46
+msgid "Number"
+msgstr ""
+
+#: includes/admin/views/field.php:109 includes/admin/views/field.php:113
+#: includes/admin/views/new-field.php:47
+msgid "Date"
+msgstr ""
+
+#: includes/admin/views/field.php:120 includes/admin/views/field.php:124
+#: includes/admin/views/new-field.php:48
+msgid "Password"
+msgstr ""
+
+#: includes/admin/views/field.php:131 includes/admin/views/field.php:135
+#: includes/admin/views/new-field.php:49
+msgid "Upload"
+msgstr ""
+
+#: includes/admin/views/field.php:142 includes/admin/views/field.php:146
+#: includes/admin/views/new-field.php:50
+msgid "Select"
+msgstr ""
+
+#: includes/admin/views/field.php:153 includes/admin/views/field.php:157
+#: includes/admin/views/new-field.php:51
+msgid "Checkbox"
+msgstr ""
+
+#: includes/admin/views/field.php:164 includes/admin/views/field.php:168
+#: includes/admin/views/new-field.php:52
+msgid "Radio"
+msgstr ""
+
+#: includes/admin/views/field.php:175 includes/admin/views/field.php:179
+#: includes/admin/views/new-field.php:53
+msgid "Textarea"
+msgstr ""
+
+#: includes/admin/views/field.php:186 includes/admin/views/field.php:190
+#: includes/admin/views/new-field.php:54
+msgid "WYSIWYG"
+msgstr ""
+
+#: includes/admin/views/field.php:197 includes/admin/views/field.php:201
+#: includes/admin/views/new-field.php:55
+msgid "Taxonomy"
+msgstr ""
+
+#: includes/admin/views/field.php:213 includes/admin/views/new-field.php:63
+msgid "Hide Field"
+msgstr ""
+
+#: includes/admin/views/field.php:216 includes/admin/views/new-field.php:66
+msgid "Turn off this field completely - when this item is checked this field will not show up on the back end or the front end."
+msgstr ""
+
+#: includes/admin/views/field.php:218 includes/admin/views/new-field.php:68
+msgid "Hide"
+msgstr ""
+
+#: includes/admin/views/field.php:225 includes/admin/views/new-field.php:75
+msgid "Sort Order"
+msgstr ""
+
+#: includes/admin/views/field.php:228 includes/admin/views/new-field.php:78
+msgid "The order in which this field appears on the front end ticket screen"
+msgstr ""
+
+#: includes/admin/views/field.php:242 includes/admin/views/new-field.php:88
+msgid "Options "
+msgstr ""
+
+#: includes/admin/views/field.php:268 includes/admin/views/field.php:347
+#: includes/admin/views/new-field.php:92 includes/admin/views/new-field.php:128
+msgid "Add option"
+msgstr ""
+
+#: includes/admin/views/field.php:279 includes/admin/views/field.php:301
+#: includes/admin/views/field.php:321 includes/admin/views/field.php:358
+#: includes/admin/views/new-field.php:99 includes/admin/views/new-field.php:112
+#: includes/admin/views/new-field.php:124
+#: includes/admin/views/new-field.php:135
+msgid "Options"
+msgstr ""
+
+#: includes/admin/views/field.php:284 includes/admin/views/field.php:287
+msgid "Rows"
+msgstr ""
+
+#: includes/admin/views/field.php:285 includes/admin/views/field.php:288
+msgid "Cols"
+msgstr ""
+
+#: includes/admin/views/field.php:306 includes/admin/views/field.php:308
+#: includes/admin/views/new-field.php:116
+msgid "Multiple"
+msgstr ""
+
+#: includes/admin/views/field.php:335
+msgid "Setting ID"
+msgstr ""
+
+#: includes/admin/views/field.php:336
+msgid "Setting Label"
+msgstr ""
+
+#: includes/admin/views/field.php:363 includes/admin/views/new-field.php:140
+msgid "Whether or not this taxonomy should act as a standard WordPress taxonomy. If set to false it will be used as a “fake” taxonomy and displayed as a basic select input. Please note that if it is set to false and you want to display the values in the tickets list screen you need to set $show_column to true"
+msgstr ""
+
+#: includes/admin/views/field.php:366 includes/admin/views/new-field.php:143
+msgid "Standard taxonomy"
+msgstr ""
+
+#: includes/admin/views/field.php:369 includes/admin/views/field.php:372
+#: includes/admin/views/field.php:400 includes/admin/views/field.php:403
+#: includes/admin/views/field.php:451 includes/admin/views/field.php:454
+#: includes/admin/views/field.php:470 includes/admin/views/field.php:473
+#: includes/admin/views/field.php:489 includes/admin/views/field.php:492
+#: includes/admin/views/field.php:508 includes/admin/views/field.php:511
+#: includes/admin/views/field.php:527 includes/admin/views/field.php:530
+#: includes/admin/views/field.php:546 includes/admin/views/field.php:549
+#: includes/admin/views/field.php:566 includes/admin/views/field.php:569
+#: includes/admin/views/field.php:585 includes/admin/views/field.php:588
+#: includes/admin/views/field.php:604 includes/admin/views/field.php:607
+#: includes/admin/views/field.php:668 includes/admin/views/field.php:671
+#: includes/admin/views/field.php:791 includes/admin/views/field.php:794
+#: includes/admin/views/field.php:810 includes/admin/views/field.php:813
+#: includes/admin/views/field.php:829 includes/admin/views/field.php:832
+#: includes/admin/views/new-field.php:145
+#: includes/admin/views/new-field.php:163
+#: includes/admin/views/new-field.php:201
+#: includes/admin/views/new-field.php:215
+#: includes/admin/views/new-field.php:229
+#: includes/admin/views/new-field.php:243
+#: includes/admin/views/new-field.php:257
+#: includes/admin/views/new-field.php:271
+#: includes/admin/views/new-field.php:285
+#: includes/admin/views/new-field.php:299
+#: includes/admin/views/new-field.php:313
+#: includes/admin/views/new-field.php:360
+#: includes/admin/views/new-field.php:460
+#: includes/admin/views/new-field.php:474
+#: includes/admin/views/new-field.php:488
+msgid "True"
+msgstr ""
+
+#: includes/admin/views/field.php:370 includes/admin/views/field.php:373
+#: includes/admin/views/field.php:401 includes/admin/views/field.php:404
+#: includes/admin/views/field.php:452 includes/admin/views/field.php:455
+#: includes/admin/views/field.php:471 includes/admin/views/field.php:474
+#: includes/admin/views/field.php:490 includes/admin/views/field.php:493
+#: includes/admin/views/field.php:509 includes/admin/views/field.php:512
+#: includes/admin/views/field.php:528 includes/admin/views/field.php:531
+#: includes/admin/views/field.php:547 includes/admin/views/field.php:550
+#: includes/admin/views/field.php:567 includes/admin/views/field.php:570
+#: includes/admin/views/field.php:586 includes/admin/views/field.php:589
+#: includes/admin/views/field.php:605 includes/admin/views/field.php:608
+#: includes/admin/views/field.php:669 includes/admin/views/field.php:672
+#: includes/admin/views/field.php:792 includes/admin/views/field.php:795
+#: includes/admin/views/field.php:811 includes/admin/views/field.php:814
+#: includes/admin/views/field.php:830 includes/admin/views/field.php:833
+#: includes/admin/views/new-field.php:146
+#: includes/admin/views/new-field.php:164
+#: includes/admin/views/new-field.php:202
+#: includes/admin/views/new-field.php:216
+#: includes/admin/views/new-field.php:230
+#: includes/admin/views/new-field.php:244
+#: includes/admin/views/new-field.php:258
+#: includes/admin/views/new-field.php:272
+#: includes/admin/views/new-field.php:286
+#: includes/admin/views/new-field.php:300
+#: includes/admin/views/new-field.php:314
+#: includes/admin/views/new-field.php:361
+#: includes/admin/views/new-field.php:461
+#: includes/admin/views/new-field.php:475
+#: includes/admin/views/new-field.php:489
+msgid "False"
+msgstr ""
+
+#: includes/admin/views/field.php:379
+msgid "Taxnomony singular name"
+msgstr ""
+
+#: includes/admin/views/field.php:381 includes/admin/views/field.php:383
+#: includes/admin/views/new-field.php:151
+#: includes/admin/views/new-field.php:152
+msgid "Taxonomy singular name"
+msgstr ""
+
+#: includes/admin/views/field.php:388 includes/admin/views/field.php:390
+#: includes/admin/views/field.php:392 includes/admin/views/new-field.php:156
+#: includes/admin/views/new-field.php:157
+msgid "Taxonomy plural name"
+msgstr ""
+
+#: includes/admin/views/field.php:397 includes/admin/views/new-field.php:161
+msgid "Hierarchical"
+msgstr ""
+
+#: includes/admin/views/field.php:415 includes/admin/views/field.php:420
+#: includes/admin/views/field.php:422 includes/admin/views/new-field.php:174
+#: includes/admin/views/new-field.php:178
+msgid "Placeholder"
+msgstr ""
+
+#: includes/admin/views/field.php:418 includes/admin/views/new-field.php:177
+msgid "Placeholder to use with input fields"
+msgstr ""
+
+#: includes/admin/views/field.php:430 includes/admin/views/new-field.php:185
+msgid "Default"
+msgstr ""
+
+#: includes/admin/views/field.php:433 includes/admin/views/new-field.php:188
+msgid "The default value for your custom field"
+msgstr ""
+
+#: includes/admin/views/field.php:435 includes/admin/views/field.php:437
+#: includes/admin/views/new-field.php:189
+msgid "Default Value"
+msgstr ""
+
+#: includes/admin/views/field.php:445 includes/admin/views/new-field.php:196
+msgid "Required"
+msgstr ""
+
+#: includes/admin/views/field.php:448 includes/admin/views/new-field.php:199
+msgid "Whether or not this field is required for submission. If set to false a ticket can be submitted even if this field is not filled-in"
+msgstr ""
+
+#: includes/admin/views/field.php:464 includes/admin/views/new-field.php:210
+msgid "Backend Only"
+msgstr ""
+
+#: includes/admin/views/field.php:467 includes/admin/views/new-field.php:213
+msgid "When set to true, this field will only show in wp-admin when viewing a ticket. It will NOT show up on the front-end at all! (Applies to version 4.0.0 and later of Awesome Support)"
+msgstr ""
+
+#: includes/admin/views/field.php:483 includes/admin/views/new-field.php:224
+msgid "Show In Front-end List?"
+msgstr ""
+
+#: includes/admin/views/field.php:486 includes/admin/views/new-field.php:227
+msgid "When set to true, this field will show up in the front-end ticket list screen for existing tickets. This setting has no effect if the Backend Only option is set to true above. (Applies to version 4.1.0 and later of Awesome Support)"
+msgstr ""
+
+#: includes/admin/views/field.php:502 includes/admin/views/new-field.php:238
+msgid "Show In Front-end Detail Screen?"
+msgstr ""
+
+#: includes/admin/views/field.php:505
+msgid "When set to true, this field will show up in the front-end detail screen for existing tickets. This setting has no effect if the Backend Only option is set to true above. (Applies to version 4.1.0 and later of Awesome Support)"
+msgstr ""
+
+#: includes/admin/views/field.php:521
+msgid "Read Only?"
+msgstr ""
+
+#: includes/admin/views/field.php:524 includes/admin/views/new-field.php:255
+msgid "Should the agent/admin be able to edit this field? (Applies to version 4.0.0 and later of Awesome Support)"
+msgstr ""
+
+#: includes/admin/views/field.php:540 includes/admin/views/new-field.php:266
+msgid "Log"
+msgstr ""
+
+#: includes/admin/views/field.php:543 includes/admin/views/new-field.php:269
+msgid "Whether or not to log the changes of values to this field. The log is shown in the ticket history in the back-end (seen by admins and agents)"
+msgstr ""
+
+#: includes/admin/views/field.php:560 includes/admin/views/new-field.php:280
+msgid "Show column"
+msgstr ""
+
+#: includes/admin/views/field.php:563 includes/admin/views/new-field.php:283
+msgid "Whether or not to show the field’s value in the tickets list screen on the backend (wp-admin)"
+msgstr ""
+
+#: includes/admin/views/field.php:579 includes/admin/views/new-field.php:294
+msgid "Sortable column"
+msgstr ""
+
+#: includes/admin/views/field.php:582 includes/admin/views/new-field.php:297
+msgid "Whether or not to make the column sortable (not compatible with taxonomy fields)"
+msgstr ""
+
+#: includes/admin/views/field.php:598 includes/admin/views/new-field.php:308
+msgid "Filterable"
+msgstr ""
+
+#: includes/admin/views/field.php:601 includes/admin/views/new-field.php:311
+msgid "Whether or not to add a filter based on the field (for taxonomies only)"
+msgstr ""
+
+#: includes/admin/views/field.php:617 includes/admin/views/field.php:622
+#: includes/admin/views/field.php:624 includes/admin/views/new-field.php:322
+#: includes/admin/views/new-field.php:326
+msgid "Capability"
+msgstr ""
+
+#: includes/admin/views/field.php:620 includes/admin/views/new-field.php:325
+msgid "Required capability for editing the field value in the admin. If current user doesn’t have the required capability the field will be “read-only”"
+msgstr ""
+
+#: includes/admin/views/field.php:632 includes/admin/views/field.php:637
+#: includes/admin/views/field.php:639 includes/admin/views/new-field.php:333
+#: includes/admin/views/new-field.php:337 includes/settings.php:34
+msgid "Description"
+msgstr ""
+
+#: includes/admin/views/field.php:635 includes/admin/views/new-field.php:336
+msgid "Description shown in the ticket edit screen (admin) as well as under the field when user is entering a new ticket"
+msgstr ""
+
+#: includes/admin/views/field.php:647 includes/admin/views/field.php:652
+#: includes/admin/views/field.php:654 includes/admin/views/new-field.php:344
+#: includes/admin/views/new-field.php:348
+msgid "HTML5 Pattern"
+msgstr ""
+
+#: includes/admin/views/field.php:650 includes/admin/views/new-field.php:347
+msgid "Use this to declare an HTML5 validation pattern to control what is allowed"
+msgstr ""
+
+#: includes/admin/views/field.php:662 includes/admin/views/new-field.php:355
+msgid "Select2"
+msgstr ""
+
+#: includes/admin/views/field.php:665 includes/admin/views/new-field.php:358
+msgid "Make any select or taxonomy field searchable using jQuery select2"
+msgstr ""
+
+#: includes/admin/views/field.php:681 includes/admin/views/new-field.php:369
+msgid "CSS Options"
+msgstr ""
+
+#: includes/admin/views/field.php:684 includes/admin/views/new-field.php:372
+msgid "Additional CSS Classes"
+msgstr ""
+
+#: includes/admin/views/field.php:694 includes/admin/views/new-field.php:382
+msgid "Use these options to set additional CSS classes for your custom field.  This is useful when you have BootStrap enabled for example - then you can apply an appropriate BootStrap class here."
+msgstr ""
+
+#: includes/admin/views/field.php:695 includes/admin/views/field.php:778
+#: includes/admin/views/new-field.php:383
+#: includes/admin/views/new-field.php:448
+msgid "Awesome Support Core 4.3.0 or later must also be installed."
+msgstr ""
+
+#: includes/admin/views/field.php:702 includes/admin/views/new-field.php:390
+msgid "Extra CSS Field Block Wrapper Classes for Front-end"
+msgstr ""
+
+#: includes/admin/views/field.php:705 includes/admin/views/new-field.php:393
+msgid "Use this to add any additional CSS classes that wrap the custom field block when its rendered on the front-end form"
+msgstr ""
+
+#: includes/admin/views/field.php:707 includes/admin/views/field.php:709
+#: includes/admin/views/field.php:722 includes/admin/views/field.php:724
+#: includes/admin/views/field.php:737 includes/admin/views/field.php:739
+#: includes/admin/views/field.php:752 includes/admin/views/field.php:754
+msgid "Extra CSS Class Name(s)"
+msgstr ""
+
+#: includes/admin/views/field.php:717 includes/admin/views/new-field.php:401
+msgid "Extra CSS Field Wrapper Classes for Front-end"
+msgstr ""
+
+#: includes/admin/views/field.php:720 includes/admin/views/new-field.php:404
+msgid "Use this to add any additional CSS classes that wrap the custom field form control when its rendered on the front-end form"
+msgstr ""
+
+#: includes/admin/views/field.php:732 includes/admin/views/new-field.php:412
+msgid "Extra CSS Field Block Wrapper Classes for Back-end"
+msgstr ""
+
+#: includes/admin/views/field.php:735 includes/admin/views/new-field.php:415
+msgid "Use this to add any additional CSS classes that wrap the custom field block when its rendered in wp-admin"
+msgstr ""
+
+#: includes/admin/views/field.php:747 includes/admin/views/new-field.php:423
+msgid "Extra CSS Field Wrapper Classes for Back-end"
+msgstr ""
+
+#: includes/admin/views/field.php:750 includes/admin/views/new-field.php:426
+msgid "Use this to add any additional CSS classes that wrap the custom field form control when its rendered in wp-admin"
+msgstr ""
+
+#: includes/admin/views/field.php:764 includes/admin/views/new-field.php:434
+msgid "Bootstrap 4.0 options"
+msgstr ""
+
+#: includes/admin/views/field.php:767 includes/admin/views/new-field.php:437
+msgid "(Experimental)"
+msgstr ""
+
+#: includes/admin/views/field.php:777 includes/admin/views/new-field.php:447
+msgid "The options in this section only work with Bootstrap 4.0 enabled and may or may not work properly depending on your theme and other plugins you have installed."
+msgstr ""
+
+#: includes/admin/views/field.php:785 includes/admin/views/new-field.php:455
+msgid "Start New Row?"
+msgstr ""
+
+#: includes/admin/views/field.php:788 includes/admin/views/new-field.php:458
+msgid "Start a new row with this field?"
+msgstr ""
+
+#: includes/admin/views/field.php:804 includes/admin/views/new-field.php:469
+msgid "End the Current Row?"
+msgstr ""
+
+#: includes/admin/views/field.php:807 includes/admin/views/new-field.php:472
+msgid "End the current row with this field?"
+msgstr ""
+
+#: includes/admin/views/field.php:823 includes/admin/views/new-field.php:483
+msgid "Place Field in a Column?"
+msgstr ""
+
+#: includes/admin/views/field.php:826
+msgid "Place field in a separate column?"
+msgstr ""
+
+#: includes/admin/views/field.php:842 includes/admin/views/new-field.php:497
+msgid "Callback Functions"
+msgstr ""
+
+#: includes/admin/views/field.php:845 includes/admin/views/new-field.php:500
+msgid "Advanced: Callback Functions"
+msgstr ""
+
+#: includes/admin/views/field.php:855 includes/admin/views/new-field.php:510
+msgid "These callback function names can be used to control how certain field types are displayed in lists."
+msgstr ""
+
+#: includes/admin/views/field.php:856 includes/admin/views/new-field.php:511
+msgid "Do not enter anything in these fields unless you are absolutely certain you know what you're doing."
+msgstr ""
+
+#: includes/admin/views/field.php:863 includes/admin/views/field.php:866
+#: includes/admin/views/new-field.php:518
+#: includes/admin/views/new-field.php:521
+msgid "Callback function when saving field"
+msgstr ""
+
+#: includes/admin/views/field.php:868 includes/admin/views/field.php:870
+#: includes/admin/views/field.php:883 includes/admin/views/field.php:885
+#: includes/admin/views/new-field.php:522
+#: includes/admin/views/new-field.php:533
+msgid "Callback Function Name"
+msgstr ""
+
+#: includes/admin/views/field.php:878 includes/admin/views/new-field.php:529
+#: includes/admin/views/new-field.php:532
+msgid "Callback function displaying column"
+msgstr ""
+
+#: includes/admin/views/field.php:881
+msgid "Callback function when displaying column"
+msgstr ""
+
+#: includes/admin/views/field.php:892 includes/admin/views/field.php:895
+#: includes/admin/views/new-field.php:539
+#: includes/admin/views/new-field.php:542
+msgid "Remove field"
+msgstr ""
+
+#: includes/admin/views/new-field.php:1
+msgid "New Field"
+msgstr ""
+
+#: includes/admin/views/new-field.php:241
+msgid "When set to true, this field will show up in the front-end ticket detail screen for existing tickets. This setting has no effect if the Backend Only option is set to true above. (Applies to version 4.1.0 and later of Awesome Support)"
+msgstr ""
+
+#: includes/admin/views/new-field.php:252
+msgid "Read Only"
+msgstr ""
+
+#: includes/admin/views/new-field.php:394
+#: includes/admin/views/new-field.php:405
+#: includes/admin/views/new-field.php:416
+#: includes/admin/views/new-field.php:427
+msgid "Extra CSS Wrapper Class Name(s)"
+msgstr ""
+
+#: includes/admin/views/new-field.php:486
+msgid "Place field into a separate column?"
+msgstr ""
+
+#: includes/settings.php:17
+msgid "Core Custom Fields"
+msgstr ""
+
+#: includes/settings.php:21
+msgid "Sort Order for Core Custom Fields"
+msgstr ""
+
+#: includes/settings.php:23
+msgid "Enter the numeric order in which the core custom fields will appear on the front end.  This only applies when the custom fields premium add-on is enabled. <br /> Please take into consideration the sort order that your other custom fields will have - they all work together to create a single master list of sorted custom fields! <br /> Requires version 4.4.0 or later of Awesome Support."
+msgstr ""
+
+#: includes/settings.php:26
+msgid "Subject"
+msgstr ""
+
+#: includes/settings.php:42
+msgid "Product"
+msgstr ""
+
+#: includes/settings.php:50
+msgid "Department"
+msgstr ""
+
+#: includes/settings.php:58
+msgid "Priority"
+msgstr ""
+
+#: includes/settings.php:66
+msgid "Public/Private Flag"
+msgstr ""
+
+#: includes/settings.php:72
+msgid "Only applies if the Public Tickets add-on is enabled"
+msgstr ""
+
+#: includes/settings.php:75
+msgid "EDD Order Number"
+msgstr ""
+
+#: includes/settings.php:81 includes/settings.php:90
+msgid "Only applies if the EDD add-on is enabled"
+msgstr ""
+
+#: includes/settings.php:84
+msgid "EDD License"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Awesome Support: Custom Fields"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://getawesomesupport.com/addons/?utm_source=internal&utm_medium=plugin_meta&utm_campaign=awesome_support_custom_fields"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "A Custom Fields settings page introducing custom fields support for tickets through UI."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "The Awesome Support Team"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://getawesomesupport.com"
+msgstr ""

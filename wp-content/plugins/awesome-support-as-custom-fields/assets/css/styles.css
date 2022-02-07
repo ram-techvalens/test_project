@@ -1,0 +1,130 @@
+.wpas-cf-heading {
+		background: #008ec2;
+		border: 1px solid #dfdfdf;
+}
+
+.wpas-cf-heading h3 {
+	color: #fff;
+}
+
+.wpas-cf-heading th, .wpas-cf-title {
+	padding: 10px 15px!important;
+}
+
+.wpas-cf-heading h3, .wpas-cf-title h3 {
+	margin: 0;
+}
+
+.wpas-cf-table tbody.wpas-cf-wrapper-object{
+	background: white;
+	border: 1px solid #dfdfdf;
+	border-bottom-width: 3px;
+}
+
+.wpas-cf-table tbody.wpas-cf-wrapper-object:nth-child(even) {
+    background-color: #efefef;
+}
+
+.wpas-cf-table th.first {
+	padding-left: 15px;
+}
+
+.wpas-cf-notification {
+	display: none;
+}
+
+.wpas-cf-notification-content {
+	margin: 0;
+	padding: 10px;
+	text-align: center;
+	font-size: 15px;
+	color: #fff;
+}
+
+.wpas-cf-field-new .wpas-cf-options,
+.wpas-cf-field-new .wpas-cf-options-textarea,
+.wpas-cf-field-new .wpas-cf-options-upload,
+.wpas-cf-field-new .wpas-cf-options-wysiwyg,
+.wpas-cf-field-new .wpas-cf-options-taxonomy {
+	display: none;
+}
+
+.wpas-custom-fields input[type="radio"],
+.wpas-custom-fields input[type="checkbox"] {
+	width: auto !important;
+}
+
+.wpas-custom-fields textarea:not(.WPAS_CF_Wysiwyg) {
+	height: 100px;
+}
+
+/* make some text fields wider */
+.wpas-cf-extra-field-css-classes-field input[type="text"], 
+.wpas-cf-extra-wrapper-css-classes-field input[type="text"],
+.wpas-cf-extra-field-css-classes-be-field input[type="text"], 
+.wpas-cf-extra-wrapper-css-classes-be-field input[type="text"],
+.wpas-cf-desc-field input[type="text"],
+.wpas-cf-html5-pattern-field input[type="text"],
+.wpas-cf-capability-field input[type="text"]
+{
+	width: 60%;
+	min-width: 100px;
+}
+
+/* Section header formatting */
+.form-table th.wpas-cf-section-header-first,
+.form-table td.wpas-cf-section-header-second {
+	padding-left: 15px;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+}
+
+.form-table th.wpas-cf-section-header-first h2,
+.form-table td.wpas-cf-section-header-second h2 {
+	margin-bottom: 0px;
+	padding-bottom: 0px;	
+}
+
+.form-table th.wpas-cf-section-sub-header-first,
+.form-table td.wpas-cf-section-sub-header-second {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	;
+}
+
+.form-table th.wpas-cf-section-sub-header-first p,
+.form-table td.wpas-cf-section-sub-header-second p {
+	font-weight: bold;
+	font-style: italic;
+}
+/* End section header formatting */
+
+.wpas-cf-table .wpas-cf-heading {
+	padding: 15px;
+	margin-bottom: -1px;
+	border: none;
+}
+
+.wpas-cf-table .wpas-cf-heading,
+.wpas-cf-table .ui-accordion-header {
+	outline: none;
+	cursor: pointer;
+}
+
+.wpas-cf-table .ui-accordion-header.ui-state-active {
+	background: #117da5;
+	border: none;
+}
+
+.wpas-cf-table .ui-accordion-header {
+	padding: 15px;
+	margin-bottom: -1px;
+	border-radius: 0;
+}
+
+.wpas-cf-table .ui-accordion-header-icon ui-icon {
+	margin-right: 5px;
+	display: inline-block;
+}
